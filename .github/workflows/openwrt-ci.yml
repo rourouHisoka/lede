@@ -60,7 +60,6 @@ jobs:
           rm -f ./.config*
           touch ./.config
           cat >> .config <<EOF
-          #
           # ========================固件定制部分========================
           #
           CONFIG_TARGET_rockchip=y
